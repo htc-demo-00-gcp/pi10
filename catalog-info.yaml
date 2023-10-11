@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "pi10"
+  annotations:
+    "humanitec.com/orgId": "johannes"
+    "humanitec.com/appId": "pi10"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
